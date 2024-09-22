@@ -1,0 +1,24 @@
+You will have an xml file as input.
+Another .txt file as input.
+
+The other .txt file will have tags, and you have to scrap data in between that.
+--------------------------------------------------------------------------------
+Possible data in .txt file:
+
+just tag name: fetch all data between that tag, if there are more such tag, then fetch all data in
+a list.
+----------------------------------------
+tag name with attribute: get the attribute value, if there are more such tags and attribute, fetch
+all data in a list.
+e.g. for xml:
+<human>
+    <person>
+        <person1>
+            <name firstname="Manjul" lastname="Punetha"/>
+        </person1>
+    </person>
+<human>
+
+here user can give input like: name.lastname
+----------------------------------------
+
